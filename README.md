@@ -131,7 +131,19 @@ With an average of 6–7 items across 4–5 categories per trip, shoppers are ru
 
 
 ## 🛠️ Tech Stack
-ToolPurposepandas / numpyData wrangling, time-series aggregationmatplotlib / seabornTrend lines, heatmaps, distributionsmlxtendApriori algorithm & association rule miningTransactionEncoderOne-hot encoding of product basketsGoogle ColabDevelopment environmentGoogle DriveSecure data source connection
+Tool Purpose
+
+pandas / numpyData wrangling, time-series aggregation
+
+matplotlib / seabornTrend lines, heatmaps, distribution
+
+smlxtend Apriori algorithm & association rule mining
+
+TransactionEncoderOne-hot encoding of product baskets
+
+Google Colab Development environment
+
+Google DriveSecure data source connection
 
 
 ### 🔬 Methodology
@@ -184,4 +196,4 @@ Customer segmentation — Basket composition can distinguish shopping occasions 
 
 
 
-If you have questions or feedback send me a message through here. Enjoy! ()) [Link]([https://your-url.com](https://www.linkedin.com/in/rituparna-das13/))
+If you have questions or feedback send me a message through here. Enjoy! () [Link]([https://your-url.com](https://www.linkedin.com/in/rituparna-das13/))
