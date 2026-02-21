@@ -150,36 +150,52 @@ Google DriveSecure data source connection
 Step 1 — Data Preprocessing
 
 Parsed date fields and extracted time features: Year, Month, Quarter, Day of Week, Week of Year
-Built a complete date spine to validate data continuity across the full 14-month range
-Confirmed zero missing months in the transaction timeline
 
 ### Step 2 — Spend Analysis
 
 Aggregated spend at transaction, category, and monthly levels
+
 Computed category-level savings rates from promotion fields
+
 Built a frequency vs. revenue bubble chart to identify high-volume, high-value categories
+
 Analyzed AOV distribution (mean vs. median) to assess skewness
 
 ### Step 3 — Market Basket Analysis
 
 Filtered to frequent products (appearing in 3+ transactions) to reduce noise
+
 Applied TransactionEncoder for one-hot encoding of transaction-product pairs
+
 Ran the Apriori algorithm with a dynamic minimum support threshold calibrated to dataset size
+
 Generated association rules using lift as the primary metric (threshold ≥ 1.0)
+
 Filtered for high-confidence rules (confidence > 70%)
+
 Built an independent product co-occurrence matrix to validate item-pair frequency
 
 ### Step 4 — Rule Evaluation Metrics
-MetricDefinitionSupportHow often the rule appears across all transactionsConfidenceP(buying Y | bought X)LiftStrength of association above random chance — lift > 1 = positive association
+Metric Definition Support How often the rule appears across all transactions
+
+ConfidenceP(buying Y | bought X)
+
+LiftStrength of association above random chance — lift > 1 = positive association
 
 ### 📈 Visualizations Included
 
 Monthly spend trend with annotated data labels
+
 Category-level spend breakdown — bar chart, pie chart, bubble chart, and savings rate
+
 Average Order Value over time with mean reference line
+
 Items-per-order trend over time
+
 Order value distribution — histogram with mean/median markers
+
 Basket size vs. order value scatter with correlation annotation
+
 Top 5 category spend growth over time (multi-line chart)
 
 
