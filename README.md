@@ -47,7 +47,9 @@ What is the average number of items and categories per basket?
 
 What is the total spend and savings, and what are the average monthly spending trends?
 
-MetricValue Total Spend $1,871.96 
+Metric Value 
+
+Total Spend $1,871.96 
 
 Total Savings $94.00
 
@@ -70,17 +72,17 @@ Monthly AOV showed notable fluctuations — lower in April, May, and December 20
 
 Which product categories contribute most to total spending?
 
-RankCategory Total Spend 
+Rank Category Total Spend 
 
-1Meat $356.69 
+1 Meat $356.69 
 
-2Seafood $317.85
+2 Seafood $317.85
 
-3Produce $282.82 
+3 Produce $282.82 
 
-4Frozen Foods $167.89 
+4 Frozen Foods $167.89 
 
-5Bakery $162.62 
+5 Bakery $162.62 
 
 ## 🔁 Frequent Products
 
@@ -179,3 +181,7 @@ Bundle promotions — Confidence ≥ 70% pairs are strong bundle candidates
 Demand forecasting — Seasonal AOV patterns inform inventory planning
 
 Customer segmentation — Basket composition can distinguish shopping occasions (quick run vs. full weekly shop)
+
+
+
+If you have questions or feedback send me a message through here. Enjoy! ()) [Link]([https://your-url.com](https://www.linkedin.com/in/rituparna-das13/))
