@@ -196,4 +196,4 @@ Customer segmentation — Basket composition can distinguish shopping occasions 
 
 
 
-If you have questions or feedback send me a message through here. Enjoy! () [Link]([https://your-url.com](https://www.linkedin.com/in/rituparna-das13/))
+If you have questions or feedback send me a message through [LinkedIn](https://www.linkedin.com/in/rituparna-das13/) . Enjoy! 
