@@ -1,4 +1,4 @@
-🛒 Grocery Market Basket Analysis
+🛒 #Grocery Market Basket Analysis
 Uncovering purchasing patterns from 14 months of real Whole Foods transaction data
 📌 Project Overview
 This project applies market basket analysis and exploratory spend analytics to 14 months of personal Whole Foods grocery transactions (January 2025 – February 2026). Using the Apriori algorithm, the analysis surfaces product association rules, identifies high-affinity item pairs, and reveals seasonal and behavioral spending patterns.
