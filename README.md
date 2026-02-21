@@ -1,50 +1,112 @@
 # 🛒 Grocery Market Basket Analysis
 
-Uncovering purchasing patterns from 14 months of real Whole Foods transaction data
+Uncovering purchasing patterns from 11 months of real Whole Foods transaction data
 
 ## 📌 Project Overview
 
-This project applies market basket analysis and exploratory spend analytics to 14 months of personal Whole Foods grocery transactions (January 2025 – February 2026). Using the Apriori algorithm, the analysis surfaces product association rules, identifies high-affinity item pairs, and reveals seasonal and behavioral spending patterns.
-
+This project applies market basket analysis and exploratory spend analytics to 11 months of personal Whole Foods grocery transactions (April 2025 – February 2026). Using the Apriori algorithm, the analysis surfaces product association rules, identifies high-affinity item pairs, and reveals seasonal and behavioral spending patterns.
 This is a real-world dataset — not a textbook example — which makes the findings both authentic and directly interpretable.
+
+## 🗃️ Data Collection
+How the Dataset Was Built
+There is no public API or data export for Whole Foods transaction history. So this dataset was built from scratch using a custom data pipeline powered by Claude (Anthropic) and Amazon order history.
+### Step 1 — Export Amazon Order History
+Whole Foods purchases made through Amazon Prime are logged in your Amazon account order history. Orders were exported by navigating to:
+
+Amazon → Returns & Orders → [Whole Foods orders] → Download order history
+
+This produced a raw order history file containing transaction dates, item descriptions, quantities, and prices — but in an unstructured, non-analytical format.
+### Step 2 — Parse and Structure with Claude
+The raw export was processed using Claude as an AI-assisted data transformation layer:
+
+Extracted individual line items, product names, quantities, and prices from unstructured order text
+Inferred and assigned product categories (e.g., Produce, Meat, Dairy, Snacks) based on product names
+Standardized inconsistent product naming conventions across 14 months of orders
+Flagged and structured promotion/discount fields where applicable
+Output a clean, analysis-ready CSV: whole_foods_transactions.csv
+
+### Step 3 — Load into Python for Analysis
+The structured CSV was saved to Google Drive and loaded directly into a Google Colab notebook for all downstream analysis.
+
+Why this matters: Manual grocery receipt tracking is tedious and error-prone. This pipeline demonstrates how LLMs can accelerate personal data projects by handling the messy, unstructured extraction layer — turning a raw export into a queryable dataset in minutes rather than hours.
 
 
 ## 🎯 Business Questions Answered
 
-Which product combinations are consistently bought together?
-How does monthly spending vary across seasons?
-What categories drive the most spend, and where are savings being captured?
-How does basket size correlate with order value?
-Are there high-lift association rules that could inform cross-promotion or inventory decisions?
+What is the total spend and savings, and what are the average monthly spending trends?
+What is the overall average order value, and how does it fluctuate monthly?
+Which product categories contribute most to total spending?
+Which products are purchased most often?
+What are the strongest product pairings and association rules?
+What is the average number of items and categories per basket?
 
 
 ## 📊 Key Findings
-💵 Spending Patterns
-MetricValueData RangeJan 2025 – Feb 2026Average Order Value (AOV)$89.14AOV Range$57.14 (Apr 2025) → $108.18 (Jul 2025)Data CoverageAll 14 months — no gaps in the timeline
-## 🧺 Market Basket Insights
+## 💵 Overall Spending Patterns
 
-Strongest association rules returned a lift of 10.5 with 100% confidence — certain product combinations appeared together in every observed transaction containing one of the items.
-Top co-occurring pairs included seasonal produce (e.g., Cantaloupe Chunks, Watermelon Chunks) alongside packaged and protein items, suggesting meal-occasion driven shopping rather than pantry stocking.
-365 Organic Roasted Seaweed + Salmon Atlantic Fillet appeared together at high frequency — consistent with weeknight dinner basket behavior.
+What is the total spend and savings, and what are the average monthly spending trends?
 
-## 📅 Seasonal Trends
+MetricValueTotal Spend$1,871.96Total Savings$94.00Overall Savings Rate4.8%Average Monthly Spend$208.00Spending Trend📈 Generally increasing
 
-Mid-year spending peak observed in July 2025 and again in February 2026
-A notable dip in April–May 2025 reflects lighter basket sizes at the start of the observation window
-All 14 months had recorded transactions — complete temporal coverage confirmed
+## 💳 Average Order Value (AOV)
+
+What is the overall average order value, and how does it fluctuate monthly?
+
+
+Overall AOV: $89.14
+Monthly AOV showed notable fluctuations — lower in April, May, and December 2025 and peaking in July 2025 and February 2026
+
+
+## 📦 Top Categories by Spend
+
+Which product categories contribute most to total spending?
+
+RankCategoryTotal Spend1Meat$356.692Seafood$317.853Produce$282.824Frozen Foods$167.895Bakery$162.62
+
+## 🔁 Frequent Products
+
+Which products are purchased most often?
+
+
+31 products were bought in 3 or more transactions, representing 44.4% of all purchases
+Top repeat item: Hot Guacamole Dip — appearing in 14 transactions
+
+
+## 🤝 Product Associations
+
+What are the strongest product pairings and association rules?
+
+
+Strongest product pairing: 365 Large White Eggs + Hot Guacamole Dip — bought together in 7 transactions
+Strongest association rule had 10.50x lift and 100% confidence:
+
+IF (Pork Chorizo Sausage, Watermelon Chunks, Hot Guacamole Dip)
+THEN (Cedar's Chickpea Salad, Mitica Walnut Date Cake Cubes, Cantaloupe Chunks)
+
+
+
+
+## 🧺 Basket Composition
+
+What is the average number of items and categories per basket?
+
+MetricValueAvg Items per Basket6.6 itemsAvg Categories per Basket4.5 categories
+Customers consistently shop across 4–5 categories per trip, indicating diverse, multi-department shopping lists.
+
+## 🗓️ Seasonal Spending Habits
+Peaks in July 2025 and February 2026, with dips in April, May, and December 2025, suggest seasonal purchasing behaviors — creating opportunities for targeted campaigns timed around these patterns.
+🏪 Cross-Merchandising Potential
+Strong pairings like Hot Guacamole Dip + 365 Large White Eggs and complex multi-item rules highlight clear opportunities for bundle offers, meal kit promotions, and in-store product placement strategy.
+🥩 High-Value Categories
+Meat, Seafood, and Produce account for over 50% of total spend combined. These categories are the highest-leverage areas for promotions and quality-driven loyalty.
+🏷️ Discount Effectiveness
+The Health/Supplements category had the highest savings rate at 22.0%, compared to an overall rate of 4.8% — suggesting promotions in this category are especially influential on purchase decisions.
+🛒 Basket Behavior
+With an average of 6–7 items across 4–5 categories per trip, shoppers are running multi-department errands rather than single-category runs — making cross-category recommendations highly actionable.
 
 
 ## 🛠️ Tech Stack
 ToolPurposepandas / numpyData wrangling, time-series aggregationmatplotlib / seabornTrend lines, heatmaps, distributionsmlxtendApriori algorithm & association rule miningTransactionEncoderOne-hot encoding of product basketsGoogle ColabDevelopment environmentGoogle DriveSecure data source connection
-
-## 🗂️ Project Structure
-grocery-market-basket-analysis/
-│
-├── market_Basket_Analysis_Whole_Foods_Data.ipynb   # Main analysis notebook
-├── README.md                                        # Project documentation
-└── (data not included — personal transaction data)
-
-Note: Raw transaction data is not included in this repository as it contains personal financial records.
 
 
 ### 🔬 Methodology
