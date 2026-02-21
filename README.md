@@ -33,9 +33,12 @@ What is the total spend and savings, and what are the average monthly spending t
 
 What is the overall average order value, and how does it fluctuate monthly?
 
-Which product categories contribute most to total spending?
+Which product categories contribute most to total spending? 
+
 Which products are purchased most often?
+
 What are the strongest product pairings and association rules?
+
 What is the average number of items and categories per basket?
 
 
@@ -44,13 +47,15 @@ What is the average number of items and categories per basket?
 
 What is the total spend and savings, and what are the average monthly spending trends?
 
-MetricValueTotal Spend$1,871.96Total Savings$94.00Overall Savings Rate4.8%Average Monthly Spend$208.00Spending Trend📈 Generally increasing
+MetricValue Total Spend$1,871.96
+Total Savings$94.00
+Overall Savings Rate4.8%
+Average Monthly Spend$208.00
+Spending Trend📈 Generally increasing
 
 ## 💳 Average Order Value (AOV)
 
 What is the overall average order value, and how does it fluctuate monthly?
-
-
 Overall AOV: $89.14
 Monthly AOV showed notable fluctuations — lower in April, May, and December 2025 and peaking in July 2025 and February 2026
 
@@ -59,7 +64,12 @@ Monthly AOV showed notable fluctuations — lower in April, May, and December 20
 
 Which product categories contribute most to total spending?
 
-RankCategoryTotal Spend1Meat$356.692Seafood$317.853Produce$282.824Frozen Foods$167.895Bakery$162.62
+RankCategoryTotal Spend 
+1Meat$356.69 
+2Seafood$317.85 
+3Produce$282.82 
+4Frozen Foods$167.89 
+5Bakery$162.62 
 
 ## 🔁 Frequent Products
 
