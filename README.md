@@ -47,16 +47,22 @@ What is the average number of items and categories per basket?
 
 What is the total spend and savings, and what are the average monthly spending trends?
 
-MetricValue Total Spend$1,871.96
-Total Savings$94.00
-Overall Savings Rate4.8%
-Average Monthly Spend$208.00
-Spending Trend📈 Generally increasing
+MetricValue Total Spend $1,871.96 
+
+Total Savings $94.00
+
+Overall Savings Rate 4.8%
+
+Average Monthly Spend $208.00
+
+Spending Trend 📈 Generally increasing
 
 ## 💳 Average Order Value (AOV)
 
 What is the overall average order value, and how does it fluctuate monthly?
+
 Overall AOV: $89.14
+
 Monthly AOV showed notable fluctuations — lower in April, May, and December 2025 and peaking in July 2025 and February 2026
 
 
@@ -64,19 +70,24 @@ Monthly AOV showed notable fluctuations — lower in April, May, and December 20
 
 Which product categories contribute most to total spending?
 
-RankCategoryTotal Spend 
-1Meat$356.69 
-2Seafood$317.85 
-3Produce$282.82 
-4Frozen Foods$167.89 
-5Bakery$162.62 
+RankCategory Total Spend 
+
+1Meat $356.69 
+
+2Seafood $317.85
+
+3Produce $282.82 
+
+4Frozen Foods $167.89 
+
+5Bakery $162.62 
 
 ## 🔁 Frequent Products
 
 Which products are purchased most often?
 
-
 31 products were bought in 3 or more transactions, representing 44.4% of all purchases
+
 Top repeat item: Hot Guacamole Dip — appearing in 14 transactions
 
 
@@ -84,31 +95,35 @@ Top repeat item: Hot Guacamole Dip — appearing in 14 transactions
 
 What are the strongest product pairings and association rules?
 
-
 Strongest product pairing: 365 Large White Eggs + Hot Guacamole Dip — bought together in 7 transactions
+
 Strongest association rule had 10.50x lift and 100% confidence:
 
 IF (Pork Chorizo Sausage, Watermelon Chunks, Hot Guacamole Dip)
 THEN (Cedar's Chickpea Salad, Mitica Walnut Date Cake Cubes, Cantaloupe Chunks)
 
-
-
-
 ## 🧺 Basket Composition
 
 What is the average number of items and categories per basket?
 
-MetricValueAvg Items per Basket6.6 itemsAvg Categories per Basket4.5 categories
+MetricValue Avg Items per Basket 6.6 items
+
+Avg Categories per Basket 4.5 categories
+
 Customers consistently shop across 4–5 categories per trip, indicating diverse, multi-department shopping lists.
 
 ## 🗓️ Seasonal Spending Habits
 Peaks in July 2025 and February 2026, with dips in April, May, and December 2025, suggest seasonal purchasing behaviors — creating opportunities for targeted campaigns timed around these patterns.
+
 🏪 Cross-Merchandising Potential
 Strong pairings like Hot Guacamole Dip + 365 Large White Eggs and complex multi-item rules highlight clear opportunities for bundle offers, meal kit promotions, and in-store product placement strategy.
+
 🥩 High-Value Categories
 Meat, Seafood, and Produce account for over 50% of total spend combined. These categories are the highest-leverage areas for promotions and quality-driven loyalty.
+
 🏷️ Discount Effectiveness
 The Health/Supplements category had the highest savings rate at 22.0%, compared to an overall rate of 4.8% — suggesting promotions in this category are especially influential on purchase decisions.
+
 🛒 Basket Behavior
 With an average of 6–7 items across 4–5 categories per trip, shoppers are running multi-department errands rather than single-category runs — making cross-category recommendations highly actionable.
 
@@ -158,6 +173,9 @@ Top 5 category spend growth over time (multi-line chart)
 Although this is a personal dataset, the analytical approach maps directly to retail and CPG analytics use cases:
 
 Product placement — High-lift rules guide cross-merchandising strategy
+
 Bundle promotions — Confidence ≥ 70% pairs are strong bundle candidates
+
 Demand forecasting — Seasonal AOV patterns inform inventory planning
+
 Customer segmentation — Basket composition can distinguish shopping occasions (quick run vs. full weekly shop)
