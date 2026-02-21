@@ -1,0 +1,314 @@
+TransactionID,Date,Product,Category,Quantity,Unit,Price_Paid,Original_Price,Promotion_Applied
+T001,2026-02-16,Organic Baby Broccoli,Produce,1,each,3.00,3.99,0.99
+T001,2026-02-16,Gold Potato,Produce,1.78,lb,2.65,2.65,0.00
+T001,2026-02-16,Grapes Small,Produce,0.76,lb,4.25,5.31,1.06
+T001,2026-02-16,365 Reduced Fat 2% Milk,Dairy,1,each,2.89,2.89,0.00
+T001,2026-02-16,Chocolate Eruption Cake,Bakery,1,each,26.99,26.99,0.00
+T001,2026-02-16,Watermelon Chunks,Produce,0.57,lb,3.41,3.41,0.00
+T001,2026-02-16,Cedar's Chickpea Salad,Prepared Foods,2,each,8.78,8.78,0.00
+T001,2026-02-16,Thai Pepper,Produce,0.10,lb,0.70,0.70,0.00
+T001,2026-02-16,Allegrini Palazzo Della Torre Wine,Beverages,1,each,21.99,21.99,0.00
+T001,2026-02-16,Salmon Atlantic Fillet,Seafood,1.09,lb,17.43,17.43,0.00
+T001,2026-02-16,Mild Guacamole Dip,Prepared Foods,0.58,lb,5.79,6.95,1.16
+T001,2026-02-16,Seeduction Half Loaf,Bakery,1,each,3.49,3.49,0.00
+T001,2026-02-16,Feel Good Foods Jalapeno Poppers,Frozen Foods,1,each,6.29,8.99,2.70
+T001,2026-02-16,Pineapple Chunks,Produce,0.71,lb,3.40,4.25,0.85
+T002,2026-02-13,Broccoli Florets,Produce,1,each,2.99,2.99,0.00
+T002,2026-02-13,Gold Potato,Produce,1.42,lb,2.12,2.12,0.00
+T002,2026-02-13,Watermelon Chunks,Produce,0.68,lb,2.03,4.07,2.04
+T002,2026-02-13,Cantaloupe Chunks,Produce,0.68,lb,2.03,4.07,2.04
+T002,2026-02-13,Bulletproof Collagen Protein,Health/Supplements,2,each,1.50,1.50,0.00
+T002,2026-02-13,Chicken Thighs Boneless,Meat,1.32,lb,10.55,10.55,0.00
+T002,2026-02-13,Sliced White Mushrooms,Produce,1,each,2.69,2.69,0.00
+T002,2026-02-13,365 Organic Roasted Seaweed,Snacks,1,each,4.99,4.99,0.00
+T002,2026-02-13,Pork Loin Chop Boneless,Meat,1.73,lb,15.55,15.55,0.00
+T002,2026-02-13,True Story Beef Hot Dogs,Meat,1,each,4.49,8.99,4.50
+T002,2026-02-13,Seeduction Half Loaf,Bakery,1,each,3.49,3.49,0.00
+T002,2026-02-13,Pork Chorizo Sausage,Meat,0.96,lb,6.71,6.71,0.00
+T002,2026-02-13,Salmon Atlantic Fillet,Seafood,1.26,lb,20.15,20.15,0.00
+T003,2026-02-07,Watermelon Chunks,Produce,0.66,lb,3.95,3.95,0.00
+T003,2026-02-07,Grapes Small,Produce,0.73,lb,4.08,5.10,1.02
+T003,2026-02-07,365 Organic Sweet Yellow Corn,Pantry,1,each,3.69,3.69,0.00
+T003,2026-02-07,Hot Guacamole Dip,Prepared Foods,0.60,lb,5.99,7.19,1.20
+T003,2026-02-07,365 Canola Oil,Pantry,1,each,4.79,4.79,0.00
+T003,2026-02-07,Gold Potato,Produce,2.24,lb,3.34,3.34,0.00
+T003,2026-02-07,Red Bell Peppers,Produce,0.35,lb,1.15,1.15,0.00
+T003,2026-02-07,Seeduction Half Loaf,Bakery,1,each,3.49,3.49,0.00
+T003,2026-02-07,365 Organic Black Chia Seeds,Pantry,1,each,9.49,9.49,0.00
+T003,2026-02-07,WFM Mushroom Parmesan Chicken Sausage,Meat,1,each,7.49,7.49,0.00
+T003,2026-02-07,Honeydew Chunks,Produce,0.71,lb,4.25,4.25,0.00
+T003,2026-02-07,365 Large White Eggs,Dairy,1,each,4.29,4.29,0.00
+T003,2026-02-07,Organic Red Onion,Produce,1.97,lb,5.89,5.89,0.00
+T003,2026-02-07,Monterey Farms Grilled Artichoke Hearts,Prepared Foods,1,each,5.99,5.99,0.00
+T003,2026-02-07,365 Organic Roasted Seaweed,Snacks,1,each,0.99,0.99,0.00
+T003,2026-02-07,Broccoli Florets,Produce,1,each,2.99,2.99,0.00
+T003,2026-02-07,Salmon Atlantic Fillet,Seafood,1.22,lb,19.51,19.51,0.00
+T003,2026-02-07,Organic Cut Kiwi,Produce,0.60,lb,7.79,7.79,0.00
+T003,2026-02-07,Mademoiselle Dulce de Leche Beignets,Bakery,1,each,6.49,6.49,0.00
+T003,2026-02-07,Cilantro,Produce,1,each,0.89,0.89,0.00
+T003,2026-02-07,Olly Goodbye Stress,Health/Supplements,1,each,3.95,5.49,1.54
+T003,2026-02-07,Royal Asia Shrimp Spring Rolls,Frozen Foods,1,each,7.49,7.49,0.00
+T003,2026-02-07,Sliced Baby Bella Mushrooms,Produce,1,each,2.99,2.99,0.00
+T003,2026-02-07,Organic Roma Tomatoes,Produce,1,each,2.99,2.99,0.00
+T003,2026-02-07,Pineapple Chunks,Produce,0.65,lb,2.85,3.57,0.72
+T003,2026-02-07,Whole Chicken Cut Up,Meat,1.58,lb,3.93,3.93,0.00
+T003,2026-02-07,Cantaloupe Chunks,Produce,0.60,lb,1.79,3.59,1.80
+T004,2026-01-19,Organic Red Bell Pepper,Produce,0.47,lb,1.87,2.11,0.24
+T004,2026-01-19,Cedar's Chickpea Salad,Prepared Foods,1,each,4.39,4.39,0.00
+T004,2026-01-19,Cantaloupe Chunks,Produce,1.26,lb,7.54,7.54,0.00
+T004,2026-01-19,Sliced White Mushrooms,Produce,1,each,2.69,2.69,0.00
+T004,2026-01-19,Watermelon Chunks,Produce,0.62,lb,3.71,3.71,0.00
+T004,2026-01-19,Cedar's Taboule Salad,Prepared Foods,1,each,6.29,6.29,0.00
+T004,2026-01-19,Hot Guacamole Dip,Prepared Foods,0.59,lb,5.89,7.07,1.18
+T004,2026-01-19,WFM Jalapeno Monterey Jack Chicken Sausage,Meat,1,each,5.99,7.49,1.50
+T004,2026-01-19,WFM Tandoori Spiced Chicken Breasts,Meat,1.37,lb,12.32,12.32,0.00
+T004,2026-01-19,365 Frozen Broccoli Florets,Frozen Foods,1,each,2.39,2.39,0.00
+T004,2026-01-19,365 Frozen Green Peas,Frozen Foods,1,each,2.39,2.39,0.00
+T004,2026-01-19,Kiwi Strawberry,Produce,0.57,lb,6.83,6.83,0.00
+T004,2026-01-19,Seeduction Half Loaf,Bakery,1,each,3.49,3.49,0.00
+T004,2026-01-19,SkinnyPop Cheddar Jalapeno Popcorn,Snacks,1,each,3.50,4.19,0.69
+T004,2026-01-19,Mitica Walnut Date Cake Cubes,Bakery,0.29,lb,4.35,4.35,0.00
+T004,2026-01-19,Pork Chorizo Sausage,Meat,1.10,lb,7.69,7.69,0.00
+T004,2026-01-19,Pomegranate Seeds,Produce,0.34,lb,5.78,5.78,0.00
+T004,2026-01-19,365 Organic Sweet Yellow Corn,Pantry,1,each,3.69,3.69,0.00
+T004,2026-01-19,Mademoiselle Dulce de Leche Beignets,Bakery,1,each,6.49,6.49,0.00
+T005,2026-01-17,Saffron Road Frozen Chicken Biryani,Frozen Foods,2,each,12.98,12.98,0.00
+T005,2026-01-17,Cedar's Chickpea Salad,Prepared Foods,1,each,4.39,4.39,0.00
+T005,2026-01-17,Banana Conventional,Produce,2.09,lb,1.44,1.44,0.00
+T005,2026-01-17,365 Foaming Hand Soap,Personal Care,1,each,3.39,3.39,0.00
+T005,2026-01-17,Bilinski Breakfast Chicken Sausage,Meat,1,each,4.72,6.29,1.57
+T005,2026-01-17,365 Toothpaste Hemp Seed Oil,Personal Care,1,each,2.65,2.65,0.00
+T005,2026-01-17,365 Frozen Broccoli Florets,Frozen Foods,1,each,3.49,3.49,0.00
+T005,2026-01-17,365 Dried Upcycled Apple Slices,Snacks,1,each,3.99,3.99,0.00
+T005,2026-01-17,Pork Chorizo Sausage,Meat,1.12,lb,7.83,7.83,0.00
+T005,2026-01-17,365 Large White Eggs,Dairy,1,each,4.29,4.29,0.00
+T005,2026-01-17,Sliced Baby Bella Mushrooms,Produce,1,each,2.99,2.99,0.00
+T005,2026-01-17,Mitica Walnut Date Cake Cubes,Bakery,0.28,lb,4.20,4.20,0.00
+T005,2026-01-17,Watermelon Chunks,Produce,0.65,lb,3.89,3.89,0.00
+T005,2026-01-17,Grape Tomato Pint,Produce,1,each,3.29,3.29,0.00
+T005,2026-01-17,Crispy Green Freeze Dried Strawberry,Snacks,1,each,7.49,10.49,3.00
+T005,2026-01-17,Orange Slices,Produce,0.67,lb,4.68,4.68,0.00
+T005,2026-01-17,Cantaloupe Chunks,Produce,0.60,lb,3.59,3.59,0.00
+T005,2026-01-17,Hot Guacamole Dip,Prepared Foods,0.61,lb,6.09,7.31,1.22
+T005,2026-01-17,Seeduction Half Loaf,Bakery,1,each,3.49,3.49,0.00
+T006,2025-12-29,365 Organic Chicken Thighs Boneless,Meat,1.34,lb,5.02,10.04,5.02
+T006,2025-12-29,Cilantro,Produce,1,each,0.89,0.89,0.00
+T006,2025-12-29,WFM Baby Potato Vegetable Blend,Produce,1,each,3.99,3.99,0.00
+T006,2025-12-29,On The Rocks EFFEN Espresso Martini,Beverages,1,each,11.69,12.99,1.30
+T006,2025-12-29,Pork Chorizo Sausage,Meat,1.04,lb,5.81,7.27,1.46
+T006,2025-12-29,Cascadian Farm Broccoli Florets,Frozen Foods,1,each,5.69,5.69,0.00
+T006,2025-12-29,Hot Guacamole Dip,Prepared Foods,0.55,lb,5.44,6.59,1.15
+T006,2025-12-29,Whole Cut Up Chicken,Meat,2.00,lb,7.98,7.98,0.00
+T006,2025-12-29,Red Bell Peppers,Produce,0.96,lb,3.16,3.16,0.00
+T006,2025-12-29,Organic Valley 2% Milk,Dairy,1,each,6.49,6.49,0.00
+T006,2025-12-29,Seeduction Half Loaf,Bakery,1,each,3.49,3.49,0.00
+T006,2025-12-29,WFM Jalapeno Monterey Jack Chicken Sausage,Meat,1,each,7.49,7.49,0.00
+T006,2025-12-29,365 Large White Eggs,Dairy,1,each,5.29,5.29,0.00
+T006,2025-12-29,Organic Green Onion,Produce,1,each,1.59,1.59,0.00
+T007,2025-12-10,365 Organic Reduced Fat 2% Milk,Dairy,1,each,4.49,4.49,0.00
+T007,2025-12-10,Northwest Farms Chicken Thighs Boneless,Meat,0.96,lb,7.67,7.67,0.00
+T007,2025-12-10,Lukes Lobster Creamy Shrimp Alfredo,Frozen Foods,1,each,4.37,5.99,1.62
+T007,2025-12-10,365 Canola Oil,Pantry,1,each,4.79,4.79,0.00
+T007,2025-12-10,Sweet Onion,Produce,1.28,lb,2.16,2.16,0.00
+T007,2025-12-10,Sliced Baby Bella Mushrooms,Produce,1,each,2.99,2.99,0.00
+T007,2025-12-10,Ark Naturals Cat Dental Chews,Pet Care,1,each,4.99,4.99,0.00
+T007,2025-12-10,Hot Guacamole Dip,Prepared Foods,0.55,lb,5.44,6.59,1.15
+T007,2025-12-10,Seeduction Half Loaf,Bakery,1,each,3.49,3.49,0.00
+T007,2025-12-10,365 Avocado Oil Spray,Pantry,1,each,9.49,9.49,0.00
+T007,2025-12-10,365 Atlantic Salmon Fillet,Seafood,1,each,25.99,25.99,0.00
+T008,2025-11-29,Hot Guacamole Dip,Prepared Foods,0.53,lb,6.35,6.35,0.00
+T008,2025-11-29,Celestial Seasonings Bengal Spice Tea,Beverages,1,each,2.92,3.79,0.87
+T008,2025-11-29,365 Frozen Broccoli Florets,Frozen Foods,1,each,2.97,3.49,0.52
+T008,2025-11-29,Gold Potato,Produce,1.82,lb,2.71,2.71,0.00
+T008,2025-11-29,Cilantro,Produce,1,each,0.89,0.89,0.00
+T008,2025-11-29,365 Reduced Fat 2% Milk,Dairy,1,each,2.79,2.79,0.00
+T008,2025-11-29,365 Chicken Thighs Boneless,Meat,1.48,lb,9.61,9.61,0.00
+T008,2025-11-29,Whole Cut Up Chicken,Meat,1.60,lb,6.38,6.38,0.00
+T008,2025-11-29,Maeve Chocolate Nuts for Fruit Truffle Bar,Bakery,1,each,4.49,5.49,1.00
+T008,2025-11-29,Natures Own Life Keto Soft White Bread,Bakery,1,each,7.99,7.99,0.00
+T008,2025-11-29,Red Bell Peppers,Produce,0.36,lb,1.01,1.18,0.17
+T008,2025-11-29,WFM Baby Potato Vegetable Blend,Produce,2,each,6.78,7.98,1.20
+T009,2025-11-20,Hot Guacamole Dip,Prepared Foods,0.58,lb,6.95,6.95,0.00
+T009,2025-11-20,Wonderful Pistachios Sea Salt Vinegar,Snacks,1,each,7.99,7.99,0.00
+T009,2025-11-20,365 Organic Sprouted Honey Oat Bread,Bakery,1,each,4.59,4.59,0.00
+T009,2025-11-20,365 Atlantic Salmon Fillet,Seafood,1,each,25.99,25.99,0.00
+T009,2025-11-20,Northwest Farms Chicken Thighs Boneless,Meat,2.59,lb,20.70,20.70,0.00
+T009,2025-11-20,Lukes Lobster Chipotle Shrimp Rice,Frozen Foods,2,each,11.98,11.98,0.00
+T009,2025-11-20,Organic Gala Apple,Produce,0.87,lb,2.17,2.17,0.00
+T009,2025-11-20,Cilantro,Produce,1,each,0.89,0.89,0.00
+T009,2025-11-20,Sliced White Mushrooms,Produce,1,each,2.69,2.69,0.00
+T009,2025-11-20,Sunset Flavor Bombs Tomatoes,Produce,1,each,4.99,5.99,1.00
+T009,2025-11-20,Blackberries,Produce,1,each,4.49,4.49,0.00
+T009,2025-11-20,Savannah Bee Pure Raw Acacia Honeycomb,Pantry,1,each,16.19,19.99,3.80
+T009,2025-11-20,WFM Wild Key West Shrimp,Seafood,1,each,9.59,11.99,2.40
+T010,2025-11-10,Lukes Lobster Chipotle Shrimp Rice,Frozen Foods,1,each,4.37,5.99,1.62
+T010,2025-11-10,WFM Organic Chocolate Truffles,Bakery,1,each,8.49,8.49,0.00
+T010,2025-11-10,Seafood Mustard Dill Salmon Fillet,Seafood,1.06,lb,13.55,16.95,3.40
+T010,2025-11-10,Granny Smith Organic Apple,Produce,1.08,lb,3.77,3.77,0.00
+T010,2025-11-10,Bare Organic Apple Chips,Snacks,1,each,7.39,7.39,0.00
+T010,2025-11-10,Hot Guacamole Dip,Prepared Foods,0.53,lb,6.35,6.35,0.00
+T010,2025-11-10,Daves Killer Bread White Done Right,Bakery,1,each,6.09,6.09,0.00
+T010,2025-11-10,Cilantro,Produce,1,each,0.89,0.89,0.00
+T010,2025-11-10,Sliced White Mushrooms,Produce,1,each,2.69,2.69,0.00
+T010,2025-11-10,Royal Asia Shrimp Spring Rolls,Frozen Foods,1,each,5.99,7.49,1.50
+T010,2025-11-10,On The Rocks EFFEN Espresso Martini,Beverages,1,each,11.69,12.99,1.30
+T010,2025-11-10,365 Organic Crispy Onions,Pantry,1,each,2.79,3.49,0.70
+T010,2025-11-10,Prepared Foods Pizza Slice,Prepared Foods,1,each,4.29,4.29,0.00
+T010,2025-11-10,Lukes Lobster Raw Shrimp,Seafood,1,each,9.49,9.49,0.00
+T011,2025-11-05,Ball Reg Mouth Jar 16Oz,Household,1,each,1.99,1.99,0.00
+T011,2025-11-05,Angel Sweet Grape Tomatoes,Produce,1,each,4.49,4.49,0.00
+T011,2025-11-05,Northwest Farms Chicken Thighs Boneless,Meat,2.21,lb,17.66,17.66,0.00
+T011,2025-11-05,365 Aluminum Foil Recycled,Household,1,each,3.99,3.99,0.00
+T011,2025-11-05,Royal Asia Shrimp Spring Rolls,Frozen Foods,1,each,5.99,7.49,1.50
+T011,2025-11-05,365 Fluoride-Free Toothpaste,Personal Care,1,each,3.73,5.59,1.86
+T011,2025-11-05,365 Reduced Fat 2% Milk,Dairy,1,each,2.79,2.79,0.00
+T011,2025-11-05,Red Onion,Produce,1.86,lb,3.33,3.33,0.00
+T011,2025-11-05,Tricolor Bell Peppers,Produce,1,each,4.99,4.99,0.00
+T011,2025-11-05,365 Canola Oil,Pantry,1,each,4.79,4.79,0.00
+T011,2025-11-05,Gold Potato,Produce,1.09,lb,1.62,1.62,0.00
+T011,2025-11-05,Whole Cut Up Chicken,Meat,1.56,lb,6.22,6.22,0.00
+T011,2025-11-05,WFM Organic Chocolate Truffles,Bakery,1,each,8.49,8.49,0.00
+T011,2025-11-05,Organic Pitted Deglet Noor Dates,Pantry,1,each,5.99,5.99,0.00
+T011,2025-11-05,Mrs Meyers Hand Soap Lavender,Personal Care,1,each,3.27,4.89,1.62
+T011,2025-11-05,A La Maison Body Creme White Tea Rose,Personal Care,1,each,9.37,13.99,4.62
+T011,2025-11-05,Purely Elizabeth Granola Blueberry Hemp,Pantry,1,each,5.98,7.99,2.01
+T011,2025-11-05,Mild Guacamole Dip,Prepared Foods,0.45,lb,5.40,5.40,0.00
+T011,2025-11-05,Sausage Pork Bulk Italian Spicy,Meat,1.00,lb,6.99,6.99,0.00
+T011,2025-11-05,WFM Mini Quiche Assortment,Frozen Foods,1,each,6.99,6.99,0.00
+T011,2025-11-05,365 Flaxseed Ground Organic,Pantry,1,each,3.79,3.79,0.00
+T011,2025-11-05,Lukes Lobster Raw Shrimp,Seafood,1,each,9.49,9.49,0.00
+T011,2025-11-05,365 Organic Unsweetened Coconut Milk,Pantry,1,each,2.09,2.09,0.00
+T012,2025-10-24,AeroFarms Micro Super Mix,Produce,1,each,4.79,4.79,0.00
+T012,2025-10-24,365 Reduced Fat 2% Milk,Dairy,1,each,2.79,2.79,0.00
+T012,2025-10-24,365 Dried Upcycled Apple Slices,Snacks,1,each,3.99,3.99,0.00
+T012,2025-10-24,Organic Kiwifruit,Produce,2,each,2.00,2.00,0.00
+T012,2025-10-24,Northwest Farms Chicken Thighs Boneless,Meat,1.39,lb,11.11,11.11,0.00
+T012,2025-10-24,Tricolor Bell Peppers,Produce,1,each,4.99,4.99,0.00
+T012,2025-10-24,Sliced Baby Bella Mushrooms,Produce,1,each,2.99,2.99,0.00
+T012,2025-10-24,Chosen Foods Avocado Oil Spray,Pantry,1,each,6.99,6.99,0.00
+T012,2025-10-24,Cucumber,Produce,2,each,1.78,1.78,0.00
+T012,2025-10-24,Organic Granny Smith Apples,Produce,0.85,lb,2.11,2.97,0.86
+T012,2025-10-24,Natures Own Life Keto Soft White Bread,Bakery,1,each,7.99,7.99,0.00
+T012,2025-10-24,365 Large White Eggs,Dairy,1,each,5.29,5.29,0.00
+T012,2025-10-24,Lukes Lobster Raw Shrimp,Seafood,1,each,9.49,9.49,0.00
+T012,2025-10-24,Hot Guacamole Dip,Prepared Foods,0.56,lb,5.53,6.71,1.18
+T012,2025-10-24,Pork Chorizo Sausage,Meat,1.03,lb,7.20,7.20,0.00
+T012,2025-10-24,Mitica Walnut Date Cake Cubes,Bakery,0.44,lb,6.60,6.60,0.00
+T012,2025-10-24,Shameless Pets Cat Treats,Pet Care,1,each,4.59,4.59,0.00
+T013,2025-08-02,Red Onion,Produce,2.62,lb,5.21,5.21,0.00
+T013,2025-08-02,Salmon Atlantic Portion,Seafood,4,each,27.96,27.96,0.00
+T013,2025-08-02,365 Cauliflower Florets,Produce,1,each,2.99,2.99,0.00
+T013,2025-08-02,Spray Roses 7 Stem,Floral,1,each,6.39,7.99,1.60
+T013,2025-08-02,Red Bell Peppers,Produce,0.54,lb,1.99,1.99,0.00
+T013,2025-08-02,365 Stir Fry Riced Cauliflower,Frozen Foods,1,each,3.29,3.29,0.00
+T013,2025-08-02,365 Shelled Edamame,Frozen Foods,1,each,2.29,2.29,0.00
+T013,2025-08-02,365 Organic Dark Red Kidney Beans,Pantry,1,each,1.49,1.49,0.00
+T013,2025-08-02,Chicken Whole Fryer Cut Up,Meat,1.26,lb,4.40,4.40,0.00
+T013,2025-08-02,365 Organic Sourdough Bread,Bakery,1,each,4.49,4.49,0.00
+T013,2025-08-02,365 Frozen Broccoli Florets,Frozen Foods,1,each,2.29,2.29,0.00
+T013,2025-08-02,365 Organic Seafood Spice Rub,Pantry,1,each,4.39,4.39,0.00
+T013,2025-08-02,Gold Potato,Produce,0.46,lb,0.69,0.69,0.00
+T013,2025-08-02,Organic Fuji Apples,Produce,0.94,lb,2.34,2.81,0.47
+T013,2025-08-02,Organic Blueberries,Produce,1,each,3.99,4.99,1.00
+T013,2025-08-02,Hot Guacamole Dip,Prepared Foods,0.59,lb,5.88,7.12,1.24
+T013,2025-08-02,Chicken Breast Fajita Pollo Asado,Meat,1.08,lb,9.71,9.71,0.00
+T013,2025-08-02,Fage Total 2% Greek Yogurt,Dairy,2,each,2.70,3.58,0.88
+T013,2025-08-02,Grape Tomato Pint,Produce,1,each,3.29,3.29,0.00
+T013,2025-08-02,Peeled Baby Carrots,Produce,1,each,0.99,0.99,0.00
+T014,2025-07-26,Mountain High Red Lentils Organic,Pantry,0.51,lb,1.88,1.88,0.00
+T014,2025-07-26,WFM Jalapeno Monterey Jack Chicken Sausage,Meat,1,each,7.49,7.49,0.00
+T014,2025-07-26,WFM Baby Potato Vegetable Blend,Produce,1,each,3.99,3.99,0.00
+T014,2025-07-26,Organic Red Onion,Produce,3.25,lb,9.72,9.72,0.00
+T014,2025-07-26,365 Organic Cut Green Beans,Frozen Foods,1,each,3.79,3.79,0.00
+T014,2025-07-26,Cilantro,Produce,1,each,0.79,0.79,0.00
+T014,2025-07-26,Pom Mums 7 Stem,Floral,1,each,5.99,5.99,0.00
+T014,2025-07-26,365 Stir Fry Riced Cauliflower,Frozen Foods,1,each,3.29,3.29,0.00
+T014,2025-07-26,WFM Wild Key West Shrimp,Seafood,1,each,9.99,9.99,0.00
+T014,2025-07-26,Shameless Pets Cat Treats,Pet Care,1,each,4.59,4.59,0.00
+T014,2025-07-26,Saffron Road Frozen Butter Chicken,Frozen Foods,1,each,6.29,6.29,0.00
+T014,2025-07-26,Stahlbush Green Peas,Frozen Foods,1,each,2.49,2.49,0.00
+T014,2025-07-26,WFM Croissant Brioche Chocolate,Bakery,1,each,6.49,6.49,0.00
+T014,2025-07-26,365 Whole Wheat Lil Loaf,Bakery,1,each,2.49,2.49,0.00
+T014,2025-07-26,WFM Tandoori Spiced Chicken Breasts,Meat,1.52,lb,13.67,13.67,0.00
+T014,2025-07-26,Traditional Medicinals Hibiscus Tea,Beverages,1,each,5.29,5.29,0.00
+T014,2025-07-26,OXO Good Grips Apple Slicer,Household,1,each,11.99,11.99,0.00
+T014,2025-07-26,365 Large White Eggs,Dairy,1,each,5.49,5.49,0.00
+T014,2025-07-26,Gold Potato,Produce,2.36,lb,3.52,3.52,0.00
+T014,2025-07-26,Wonderful Pistachio Lightly Salted,Snacks,1,each,7.49,7.49,0.00
+T014,2025-07-26,Dr Bronners Organic Shaving Soap,Personal Care,1,each,10.79,10.79,0.00
+T014,2025-07-26,Organic Grape Tomatoes,Produce,1,each,3.99,3.99,0.00
+T014,2025-07-26,Hot Guacamole Dip,Prepared Foods,0.57,lb,6.89,6.89,0.00
+T014,2025-07-26,Red Bell Peppers,Produce,0.44,lb,1.19,1.62,0.43
+T014,2025-07-26,365 Makeup Remover Cleansing Towelettes,Personal Care,1,each,4.09,4.09,0.00
+T014,2025-07-26,Saffron Road Entree Palak Paneer,Frozen Foods,1,each,6.29,6.29,0.00
+T014,2025-07-26,365 Breaded Calamari,Frozen Foods,1,each,6.49,6.49,0.00
+T014,2025-07-26,Garlic Dill Salmon,Seafood,0.72,lb,11.51,11.51,0.00
+T014,2025-07-26,Bobos Oat Bars Chocolate Chip,Snacks,1,each,2.79,2.79,0.00
+T015,2025-07-22,Bag Fee,Household,2,each,0.00,0.00,0.00
+T015,2025-07-22,Green Bell Pepper,Produce,0.39,lb,0.97,0.97,0.00
+T015,2025-07-22,Roma Tomato,Produce,0.76,lb,1.51,1.51,0.00
+T015,2025-07-22,Momofuku Spicy Soy Ramen Noodles,Pantry,1,each,15.99,15.99,0.00
+T015,2025-07-22,Mild Guacamole Dip,Prepared Foods,0.61,lb,7.01,7.01,0.00
+T015,2025-07-22,Saffron Road Korean BBQ Crunchy Chickpea,Snacks,1,each,5.29,5.29,0.00
+T015,2025-07-22,365 Large White Eggs,Dairy,1,each,5.49,5.49,0.00
+T015,2025-07-22,Cilantro,Produce,1,each,0.79,0.79,0.00
+T015,2025-07-22,365 Organic Petite Peas,Frozen Foods,1,each,3.79,3.79,0.00
+T015,2025-07-22,WFM Wild Key West Shrimp,Seafood,1,each,9.99,9.99,0.00
+T015,2025-07-22,Chicken Whole Fryer Cut Up,Meat,2.08,lb,7.26,7.26,0.00
+T016,2025-07-06,Thai Pepper,Produce,0.10,lb,0.70,0.70,0.00
+T016,2025-07-06,Green Onions,Produce,1,each,0.99,0.99,0.00
+T016,2025-07-06,Chicken Whole Fryer Cut Up,Meat,2.05,lb,7.15,7.15,0.00
+T016,2025-07-06,Green Bell Pepper,Produce,0.52,lb,1.29,1.29,0.00
+T016,2025-07-06,WFM Wild Key West Shrimp,Seafood,1,each,9.99,9.99,0.00
+T016,2025-07-06,Roma Tomato,Produce,1.60,lb,2.39,3.18,0.79
+T016,2025-07-06,Giovanni Smooth as Silk Shampoo,Personal Care,1,each,10.49,10.49,0.00
+T016,2025-07-06,Sach Paneer Original Organic,Pantry,2,each,18.98,18.98,0.00
+T016,2025-07-06,Lime,Produce,1,each,0.69,0.69,0.00
+T016,2025-07-06,365 Organic Baby Spinach Salad,Produce,1,each,3.69,3.69,0.00
+T016,2025-07-06,Atlantic Salmon Fillet,Seafood,2.09,lb,29.24,29.24,0.00
+T016,2025-07-06,WFM Mini Quiche Assortment,Frozen Foods,1,each,6.99,6.99,0.00
+T016,2025-07-06,365 All Purpose Flour,Pantry,1,each,3.09,3.09,0.00
+T017,2025-05-30,365 Lime Sparkling Water,Beverages,1,each,4.79,4.79,0.00
+T017,2025-05-30,365 Organic Sugar,Pantry,1,each,5.49,5.49,0.00
+T017,2025-05-30,Roma Tomato,Produce,0.55,lb,1.09,1.09,0.00
+T017,2025-05-30,365 Large White Eggs,Dairy,1,each,5.49,5.49,0.00
+T017,2025-05-30,Brew Dr Kombucha Island Mango,Beverages,1,each,3.39,3.39,0.00
+T017,2025-05-30,Stahlbush Green Peas,Frozen Foods,1,each,2.49,2.49,0.00
+T017,2025-05-30,Lime,Produce,2,each,1.38,1.38,0.00
+T017,2025-05-30,Hot Guacamole Dip,Prepared Foods,0.62,lb,5.85,7.12,1.27
+T017,2025-05-30,WFM Wild Key West Shrimp,Seafood,1,each,9.99,9.99,0.00
+T018,2025-05-28,WFM Baby Potato Vegetable Blend,Produce,1,each,3.99,3.99,0.00
+T018,2025-05-28,WFM Croissant Chocolate Mini,Bakery,1,each,7.49,7.49,0.00
+T018,2025-05-28,365 Chicken Thighs Boneless,Meat,4.17,lb,27.07,27.07,0.00
+T018,2025-05-28,Garlic Dill Salmon,Seafood,1.51,lb,20.52,24.14,3.62
+T018,2025-05-28,Chicken Whole Fryer Cut Up,Meat,2.03,lb,7.08,7.08,0.00
+T018,2025-05-28,WFM Mini Quiche Assortment,Frozen Foods,1,each,6.99,6.99,0.00
+T018,2025-05-28,Strawberries,Produce,1,each,3.49,3.49,0.00
+T018,2025-05-28,Hot Guacamole Dip,Prepared Foods,0.60,lb,5.66,6.89,1.23
+T018,2025-05-28,365 Cilantro Lime Shrimp,Frozen Foods,1,each,6.47,7.99,1.52
+T018,2025-05-28,Cauliflower,Produce,1,each,3.49,3.49,0.00
+T019,2025-05-15,Thai Pepper,Produce,0.24,lb,1.68,1.68,0.00
+T019,2025-05-15,365 Recycled Bath Tissue,Household,1,each,6.89,6.89,0.00
+T019,2025-05-15,Hot Guacamole Dip,Prepared Foods,0.61,lb,5.48,6.70,1.22
+T019,2025-05-15,Northwest Farms Chicken Thighs Boneless,Meat,2.65,lb,21.18,21.18,0.00
+T019,2025-05-15,Bilinski Organic Sage Chicken Sausage,Meat,1,each,7.99,7.99,0.00
+T019,2025-05-15,Chicken Whole Fryer Cut Up,Meat,2.13,lb,7.43,7.43,0.00
+T019,2025-05-15,365 Large White Eggs,Dairy,1,each,5.49,5.49,0.00
+T019,2025-05-15,WFM Croissant Chocolate Mini,Bakery,1,each,7.49,7.49,0.00
+T020,2025-04-09,365 Organic Green Peas No Salt,Frozen Foods,1,each,3.79,3.79,0.00
+T020,2025-04-09,Red Onion,Produce,1.83,lb,3.64,3.64,0.00
+T020,2025-04-09,365 Chicken BBQ Sauce Pizza,Frozen Foods,1,each,5.49,5.49,0.00
+T020,2025-04-09,Bilinski Organic Apple Chicken Sausage,Meat,1,each,5.99,7.99,2.00
+T020,2025-04-09,WFM Croissant Brioche Chocolate,Bakery,1,each,6.49,6.49,0.00
+T021,2025-04-02,365 Tail Off Shrimp Club Pack,Seafood,1,each,18.99,18.99,0.00
+T021,2025-04-02,365 Organic Linguine Pasta,Pantry,2,each,3.98,3.98,0.00
+T021,2025-04-02,365 Beer Battered Pollock,Frozen Foods,1,each,11.99,11.99,0.00
+T021,2025-04-02,WFM Vegan Tomato Pesto,Pantry,1,each,3.99,3.99,0.00
+T021,2025-04-02,Fage Total 2% Greek Yogurt,Dairy,2,each,2.50,3.38,0.88
+T021,2025-04-02,Cilantro Organic,Produce,1,each,1.99,1.99,0.00
+T021,2025-04-02,WFM Organic Mild Italian Chicken Sausage,Meat,1,each,7.49,7.49,0.00
+T021,2025-04-02,365 Organic 4 Cheese Pasta Sauce,Pantry,1,each,3.79,3.79,0.00
+T021,2025-04-02,365 Chicken Thighs Boneless,Meat,1.26,lb,8.18,8.18,0.00
+T021,2025-04-02,365 Patagonian Sea Scallops,Seafood,1,each,8.99,8.99,0.00
+T021,2025-04-02,WFM Organic Mushroom Parmesan Chicken Sausage,Meat,1,each,7.49,7.49,0.00
+T021,2025-04-02,365 Extra Virgin Olive Oil,Pantry,1,each,9.49,9.49,0.00
