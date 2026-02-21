@@ -9,6 +9,7 @@ This is a real-world dataset — not a textbook example — which makes the find
 
 ## 🗃️ Data Collection
 How the Dataset Was Built
+
 There is no public API or data export for Whole Foods transaction history. So this dataset was built from scratch using a custom data pipeline powered by Claude (Anthropic) and Amazon order history.
 ### Step 1 — Export Amazon Order History
 Whole Foods purchases made through Amazon Prime are logged in your Amazon account order history. Orders were exported by navigating to:
