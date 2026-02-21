@@ -13,13 +13,10 @@ How the Dataset Was Built
 There is no public API or data export for Whole Foods transaction history. So this dataset was built from scratch using a custom data pipeline powered by Claude (Anthropic) and Amazon order history.
 ### Step 1 — Export Amazon Order History
 Whole Foods purchases made through Amazon Prime are logged in your Amazon account order history. Orders were exported by navigating to:
-
 Amazon → Returns & Orders → [Whole Foods orders] → Download order history
-
 This produced a raw order history file containing transaction dates, item descriptions, quantities, and prices — but in an unstructured, non-analytical format.
 ### Step 2 — Parse and Structure with Claude
 The raw export was processed using Claude as an AI-assisted data transformation layer:
-
 Extracted individual line items, product names, quantities, and prices from unstructured order text
 Inferred and assigned product categories (e.g., Produce, Meat, Dairy, Snacks) based on product names
 Standardized inconsistent product naming conventions across 14 months of orders
@@ -28,14 +25,14 @@ Output a clean, analysis-ready CSV: whole_foods_transactions.csv
 
 ### Step 3 — Load into Python for Analysis
 The structured CSV was saved to Google Drive and loaded directly into a Google Colab notebook for all downstream analysis.
-
 Why this matters: Manual grocery receipt tracking is tedious and error-prone. This pipeline demonstrates how LLMs can accelerate personal data projects by handling the messy, unstructured extraction layer — turning a raw export into a queryable dataset in minutes rather than hours.
-
 
 ## 🎯 Business Questions Answered
 
 What is the total spend and savings, and what are the average monthly spending trends?
+
 What is the overall average order value, and how does it fluctuate monthly?
+
 Which product categories contribute most to total spending?
 Which products are purchased most often?
 What are the strongest product pairings and association rules?
